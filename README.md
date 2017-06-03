@@ -116,7 +116,9 @@ sortable('.sortable')[0].addEventListener('sortupdate', function(e) {
     e.detail.oldElementIndex contains the old index of the dragged element (considering all items within sortable)
     e.detail.startparent contains the element that the dragged item comes from
     e.detail.endparent contains the element that the dragged item was added to (new parent)
-
+    e.detail.newEndList contains all elements in the list the dragged item was dragged to
+    e.detail.newStartList contains all elements in the list the dragged item was dragged from
+    e.detail.oldStartList contains all elements in the list the dragged item was dragged from BEFORE it was dragged from it
     */
 });
 ```

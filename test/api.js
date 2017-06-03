@@ -1,4 +1,4 @@
-/* global describe,beforeEach,before,it */
+/* global describe,beforeEach,afterEach,before,it */
 describe('Testing api', function () {
   // testing basic api
   let assert = require('chai').assert
